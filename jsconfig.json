@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["./src/*"],
+            "sm-express-server": ["../sm-express-server/modules/index.js"]
+        }
+    },
+    "include": ["./**/*"]
+}
